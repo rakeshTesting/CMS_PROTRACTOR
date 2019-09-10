@@ -75,7 +75,7 @@ this.displayingUserInformation=function()
    this.signout = function(){
     element(by.className('fa fa-power-off')).click();
     sleep();
-
+//console.log('hello');
    }
    this.passwordTextPresent = function(){
     return  element(by.id('Password')).isPresent();

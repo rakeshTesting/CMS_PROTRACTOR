@@ -80,7 +80,7 @@ this.displayingUserInformation=function()
    this.passwordTextPresent = function(){
     return  element(by.id('Password')).isPresent();
    };
-  
+  console.log("new code");
 }
 
 module.exports = new Login();

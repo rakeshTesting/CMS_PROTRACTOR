@@ -36,7 +36,7 @@ function Login() {
     sleep();
   }
   this.clickOnEnter = function () {
-    browser.actions().sendKeys(protractor.Key.ENTER).perform();
+    element(by.css(".send-btn")).click();
     sleep();
   }
   this.getSentMessageText = function () {

@@ -24,7 +24,7 @@ describe('workspace directory', function () {
   //3
   it('user can search praticular employee', function () {
 
-    obj.enterSearchUserName('kee');
+    obj.enterSearchUserName('rak');
     expect(obj.searchUserPresent()).toBe(false);
 
   });

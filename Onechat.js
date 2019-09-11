@@ -1,7 +1,7 @@
 
   var data = require('./Reuse.js')
   var obj = require('./oc.js');
-  const fruitsToGet = [1,2,3]
+  
 
   describe('One-to-one chat test cases', function() {
       //1) 
@@ -9,7 +9,7 @@
      
       it('user login to the application', function() {
       
-        console.log(i);
+      
         obj.getUrl(data.url);
         obj.userName(data.userName);
         obj.password(data.password);

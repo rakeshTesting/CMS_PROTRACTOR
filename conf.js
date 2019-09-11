@@ -2,7 +2,7 @@
 var HtmlReporter = require('protractor-beautiful-reporter');
 
 exports.config = {
-specs:['Onechat.js'],
+specs:['@.js'],
     
 allScriptsTimeout: 1200000,
 getPageTimeout: 1200000,

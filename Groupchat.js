@@ -20,7 +20,7 @@ describe('Group chat test cases', function () {
     obj.clickOn(data.groupName);
     obj.enterMessage('Welcome to Zapoj Application')
     obj.clickOnEnter();
-    expect(obj.getSentMessageText()).toEqual('Hi');
+    expect(obj.getSentMessageText('Hi')).toEqual('Hi');
 
 
   });

@@ -54,7 +54,7 @@ describe('maps test cases', function () {
   //8
   it('login user can open other user weather details window', function () {
 
-    element(by.xpath('//*[@id="userId3"]')).click();
+    obj.clickOn(data.chatUserName);
     browser.driver.sleep(9000);
     objMaps.clickOnWeatherIcon();
     expect(objMaps.checkWeatherDetailsRightSidePannelIsOpened()).toEqual('Weather');

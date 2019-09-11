@@ -52,14 +52,14 @@ this.usersPresent=function()
  }
 this.searchUserPresent=function()
 {
-   return  element(by.css('a[title="keerti puligadda"]')).isPresent();
+   return  element(by.css('a[title="ravindra noothi"]')).isPresent();
 }
 
 //4
 
 this.clickOnSearchedUser = function()
 {
-    element(by.css('a[title="keerthi puligadda"]')).click();
+    element(by.css('a[title="Rakesh Kondabala"]')).click();
     sleep();
 }
 this.displayingUserInformation=function()

@@ -231,12 +231,12 @@ app.controller('ScreenshotReportController', function ($scope, $http) {
 
     var results = [
     {
-        "description": "user can login to the application|Group secure file sharing",
+        "description": "user login in to the application|@Functionality test cases",
         "passed": true,
         "pending": false,
         "os": "Linux",
-        "sessionId": "43ccc4a3b67bdb5a43d7a31d7b70ed30",
-        "instanceId": 16328,
+        "sessionId": "d9b6be9ba807f2d261e8915830c3eaca",
+        "instanceId": 21282,
         "browser": {
             "name": "chrome",
             "version": "70.0.3538.77"
@@ -247,21 +247,21 @@ app.controller('ScreenshotReportController', function ($scope, $http) {
             {
                 "level": "SEVERE",
                 "message": "chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED",
-                "timestamp": 1568109062183,
+                "timestamp": 1568196911314,
                 "type": ""
             }
         ],
-        "screenShotFile": "images/009700ab-00d4-00e8-0065-0024009f00eb.png",
-        "timestamp": 1568109060458,
-        "duration": 28362
+        "screenShotFile": "images/00fd00d4-00f6-006f-0009-00d2008c00c8.png",
+        "timestamp": 1568196905879,
+        "duration": 31941
     },
     {
-        "description": "user can open the file shareing option |Group secure file sharing",
+        "description": "when we enter @ symbol user list must highlight|@Functionality test cases",
         "passed": true,
         "pending": false,
         "os": "Linux",
-        "sessionId": "43ccc4a3b67bdb5a43d7a31d7b70ed30",
-        "instanceId": 16328,
+        "sessionId": "d9b6be9ba807f2d261e8915830c3eaca",
+        "instanceId": 21282,
         "browser": {
             "name": "chrome",
             "version": "70.0.3538.77"
@@ -269,31 +269,379 @@ app.controller('ScreenshotReportController', function ($scope, $http) {
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images/00c70032-00cc-009b-0061-00c4008e00c1.png",
-        "timestamp": 1568109089210,
-        "duration": 15955
+        "screenShotFile": "images/00ea00c2-00fa-00aa-00f1-00d8001a008e.png",
+        "timestamp": 1568196938245,
+        "duration": 15891
     },
     {
-        "description": "user can create the folder|Group secure file sharing",
-        "passed": false,
+        "description": "user can search for praticular user|@Functionality test cases",
+        "passed": true,
         "pending": false,
         "os": "Linux",
-        "sessionId": "43ccc4a3b67bdb5a43d7a31d7b70ed30",
-        "instanceId": 16328,
+        "sessionId": "d9b6be9ba807f2d261e8915830c3eaca",
+        "instanceId": 21282,
         "browser": {
             "name": "chrome",
             "version": "70.0.3538.77"
         },
-        "message": [
-            "Failed: No element found using locator: By(css selector, *[id=\"foldernme\"])"
-        ],
-        "trace": [
-            "NoSuchElementError: No element found using locator: By(css selector, *[id=\"foldernme\"])\n    at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)Error\n    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as clear] (/usr/local/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as clear] (/usr/local/lib/node_modules/protractor/built/element.js:831:22)\n    at fileshare.enterFolderName (/home/rkondabala/Desktop/CMS_PROTRACTOR/file.js:33:33)\n    at UserContext.<anonymous> (/home/rkondabala/Desktop/CMS_PROTRACTOR/Groupsecurefile.js:28:17)\n    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25\n    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)Error\n    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/built/element.js:831:22)\n    at fileshare.enterFolderName (/home/rkondabala/Desktop/CMS_PROTRACTOR/file.js:33:41)\n    at UserContext.<anonymous> (/home/rkondabala/Desktop/CMS_PROTRACTOR/Groupsecurefile.js:28:17)\n    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25\n    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\nFrom: Task: Run it(\"user can create the folder\") in control flow\n    at UserContext.<anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)\n    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n    at runNext (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:64:48\n    at ControlFlow.emit (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/events.js:62:21)\n    at ControlFlow.shutdown_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n    at shutdownTask_.MicroTask (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (/home/rkondabala/Desktop/CMS_PROTRACTOR/Groupsecurefile.js:24:9)\n    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n    at Object.<anonymous> (/home/rkondabala/Desktop/CMS_PROTRACTOR/Groupsecurefile.js:6:5)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)"
-        ],
+        "message": "Passed.",
+        "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images/00940038-0032-00ae-0001-005700080005.png",
-        "timestamp": 1568109105489,
-        "duration": 10713
+        "screenShotFile": "images/005000ff-0013-00d3-0062-00c9001f0019.png",
+        "timestamp": 1568196954554,
+        "duration": 5681
+    },
+    {
+        "description": "user can select searched user|@Functionality test cases",
+        "passed": true,
+        "pending": false,
+        "os": "Linux",
+        "sessionId": "d9b6be9ba807f2d261e8915830c3eaca",
+        "instanceId": 21282,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.77"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/#/feature/message/nagshaku 0:5 Uncaught SyntaxError: Unexpected token )",
+                "timestamp": 1568196965864,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images/00f100c1-00bd-00a9-002f-007d00330029.png",
+        "timestamp": 1568196960601,
+        "duration": 10437
+    },
+    {
+        "description": "user can send @ message to other user|@Functionality test cases",
+        "passed": true,
+        "pending": false,
+        "os": "Linux",
+        "sessionId": "d9b6be9ba807f2d261e8915830c3eaca",
+        "instanceId": 21282,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.77"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images/00ac0071-0041-00c2-0083-005f00d000d7.png",
+        "timestamp": 1568196971381,
+        "duration": 5667
+    },
+    {
+        "description": "user when we click @ message then user profile pop up will display|@Functionality test cases",
+        "passed": true,
+        "pending": false,
+        "os": "Linux",
+        "sessionId": "d9b6be9ba807f2d261e8915830c3eaca",
+        "instanceId": 21282,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.77"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "ng:///ChatModule/ProfilePopupComponent.ngfactory.js 55:76 \"ERROR\"",
+                "timestamp": 1568196977869,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///ChatModule/ProfilePopupComponent.ngfactory.js 55:76 \"ERROR CONTEXT\"",
+                "timestamp": 1568196977871,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images/00d6004a-0070-005e-0082-00ee004200f0.png",
+        "timestamp": 1568196977409,
+        "duration": 5637
+    },
+    {
+        "description": "login user can open the praticular user profile|@Functionality test cases",
+        "passed": true,
+        "pending": false,
+        "os": "Linux",
+        "sessionId": "d9b6be9ba807f2d261e8915830c3eaca",
+        "instanceId": 21282,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.77"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/memberportal-modules-features-features-module.js 6722:71 Uncaught TypeError: Cannot read property 'long_name' of undefined",
+                "timestamp": 1568196989040,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/memberportal-modules-features-features-module.js 6722:71 Uncaught TypeError: Cannot read property 'long_name' of undefined",
+                "timestamp": 1568196989040,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568196994467,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568196994467,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568196994467,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568196994477,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images/00a30058-00ca-008c-003a-00c4006200ec.png",
+        "timestamp": 1568196983489,
+        "duration": 10965
+    },
+    {
+        "description": "login user can open the praticular user chat page|@Functionality test cases",
+        "passed": true,
+        "pending": false,
+        "os": "Linux",
+        "sessionId": "d9b6be9ba807f2d261e8915830c3eaca",
+        "instanceId": 21282,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.77"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "ng:///ChatModule/ProfilePopupComponent.ngfactory.js 55:76 \"ERROR\"",
+                "timestamp": 1568196995210,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///ChatModule/ProfilePopupComponent.ngfactory.js 55:76 \"ERROR CONTEXT\"",
+                "timestamp": 1568196995211,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197000270,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197000270,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197000271,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197000271,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109277 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: WebSocket is closed before the connection is established.",
+                "timestamp": 1568197000271,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197000272,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://chat.dev.zapoj.com/chatHistory - Failed to load resource: the server responded with a status of 502 (Bad Gateway)",
+                "timestamp": 1568197005757,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://chat.dev.zapoj.com/chatHistory - Failed to load resource: the server responded with a status of 502 (Bad Gateway)",
+                "timestamp": 1568197005757,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/#/feature/message/jyoti - Access to XMLHttpRequest at 'https://chat.dev.zapoj.com/chatHistory' from origin 'https://d1qbzrr1cuc5zg.cloudfront.net' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+                "timestamp": 1568197005757,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://chat.dev.zapoj.com/getPinnedMsg/o20190828092008798 - Failed to load resource: the server responded with a status of 502 (Bad Gateway)",
+                "timestamp": 1568197005757,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://chat.dev.zapoj.com/getPinnedMsg/o20190828092008798 - Failed to load resource: the server responded with a status of 502 (Bad Gateway)",
+                "timestamp": 1568197005757,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/#/feature/message/jyoti - Access to XMLHttpRequest at 'https://chat.dev.zapoj.com/getPinnedMsg/o20190828092008798' from origin 'https://d1qbzrr1cuc5zg.cloudfront.net' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+                "timestamp": 1568197005757,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://chat.dev.zapoj.com/getPinnedMsg/o20190828092008798 - Failed to load resource: the server responded with a status of 502 (Bad Gateway)",
+                "timestamp": 1568197005757,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://chat.dev.zapoj.com/getPinnedMsg/o20190828092008798 - Failed to load resource: the server responded with a status of 502 (Bad Gateway)",
+                "timestamp": 1568197005757,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/#/feature/message/jyoti - Access to XMLHttpRequest at 'https://chat.dev.zapoj.com/getPinnedMsg/o20190828092008798' from origin 'https://d1qbzrr1cuc5zg.cloudfront.net' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+                "timestamp": 1568197005758,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 61259:18 \"ERROR\"",
+                "timestamp": 1568197005758,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 61259:18 \"ERROR\"",
+                "timestamp": 1568197005758,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 61259:18 \"ERROR\"",
+                "timestamp": 1568197005758,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197005758,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197005758,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109277 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: WebSocket is closed before the connection is established.",
+                "timestamp": 1568197005759,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197005759,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197005941,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images/007200b3-0000-0058-0026-001a003f00ba.png",
+        "timestamp": 1568196994842,
+        "duration": 11202
+    },
+    {
+        "description": "login user can logout the application|@Functionality test cases",
+        "passed": true,
+        "pending": false,
+        "os": "Linux",
+        "sessionId": "d9b6be9ba807f2d261e8915830c3eaca",
+        "instanceId": 21282,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.77"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197012083,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197012084,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109277 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: WebSocket is closed before the connection is established.",
+                "timestamp": 1568197012084,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/vendor.js 109154 WebSocket connection to 'wss://chat.dev.zapoj.com/socket.io/?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNjhiNDMyY2YwNjE4NmM0ZTNiZGYwMiIsImlhdCI6MTU2ODE5NjkzNCwiZXhwIjoxNTY4MjQwMTM0fQ.krGG3yS4A8ba8znsv86_2Ff-BsdgFVNM3kLIfSldULI&EIO=3&transport=websocket' failed: Error during WebSocket handshake: Unexpected response code: 502",
+                "timestamp": 1568197012084,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://d1qbzrr1cuc5zg.cloudfront.net/assets/js/RTCMultiConnection.js 292:24 \"webrtc socket.io connection is closed\"",
+                "timestamp": 1568197012680,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED",
+                "timestamp": 1568197013826,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images/007a00d9-00d1-00f7-0055-009c00bd0071.png",
+        "timestamp": 1568197006478,
+        "duration": 18381
     }
 ];
 

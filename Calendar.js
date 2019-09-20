@@ -15,8 +15,9 @@
         //2
         
         it("login user can open the calendar",function() {
-
+      
               obj.clickOn(data.groupName);
+              
               cal.clickOnCalendarIcon();
               cal.clickOnCalendarNextMonth();
               expect(cal.CheckCalendarPageIsOpened()).toBe(true);

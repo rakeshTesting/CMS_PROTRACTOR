@@ -2,7 +2,8 @@
   var data = require('./Reuse.js')
   var obj = require('./oc.js');
   
-
+  for(var i=0; i<=1; i++)
+  {
   describe('One-to-one chat test cases', function() {
       //1) 
     
@@ -23,19 +24,25 @@
   
    it("login user send messages to other user",function() {
       
-          
+          if(i==0)
+          {
           obj.clickOn(data.chatUserName);
-          obj.enterMessage('Hi');
+          }
+          if(i==1)
+          {
+            obj.clickOn(data.groupName);
+          }
+          /*obj.enterMessage('Hi');
           obj.clickOnEnter();
           obj.enterMessage('Welcome to Zapoj Application')
           obj.clickOnEnter();
-           expect(obj.getSentMessageText()).toEqual('Hi');
+           expect(obj.getSentMessageText()).toEqual('Hi');*/
            
        
         }); 
       
         //3
-       it('View profile picture.', function() {
+      /* it('View profile picture.', function() {
           
           expect(obj.userProfilePicVisiableInChat()).toBe(true);
         
@@ -257,10 +264,10 @@
        obj.clickOnUserProfile();
        obj.signout();
       expect(obj.passwordTextPresent()).toBe(true);
-       });
+       });*/
       
       });
     
-    
+    }
     
   

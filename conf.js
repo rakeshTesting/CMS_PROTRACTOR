@@ -2,7 +2,7 @@
 var HtmlReporter = require('protractor-beautiful-reporter');
 
 exports.config = {
-specs:['@.js'],
+specs:['Workspace.js','Thems.js'],
     
 allScriptsTimeout: 1200000,
 getPageTimeout: 1200000,
@@ -19,7 +19,7 @@ onPrepare: function() {
   browser.driver.manage().window().maximize();
   jasmine.getEnv().addReporter(new HtmlReporter({
   baseDirectory: 'report',
-  preserveDirectory: false,
+  //preserveDirectory: false,
   screenshotsSubfolder: 'images',
   jsonsSubfolder: 'jsons'
   , docTitle: 'Member portal report' 

@@ -109,8 +109,8 @@
    this.clickOnSaveButton = function()
    {
         
-    element(by.buttonText('Save')).click();
-    sleep();
+    element(by.buttonText('Save theme')).click();
+    browser.driver.sleep(9000);
    }
   //12
     //4
